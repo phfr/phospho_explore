@@ -1,0 +1,2 @@
+# Large archives from scripts/download_phosphosite_resources.py — keep locally, avoid committing.
+*.gz
