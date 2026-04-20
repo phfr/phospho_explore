@@ -1,0 +1,51 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Packaging / install metadata
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+
+# Test / coverage / type / lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# --- Secrets / local env (never commit) ---
+.env
+.env.*
+!.env.example
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Editor local state ---
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Datasets & project inputs ---
+# Intentionally NOT ignored: data.tsv, data/** (GMTs, etc.).
+# Nested rule: resources/phosphosite/.gitignore ignores downloaded *.gz there.
