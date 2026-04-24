@@ -21,6 +21,7 @@ Pipeline order:
    then `python analyze/kinase_substrate_prerank.py` (or use `data/gene_sets/kinase_substrates_sample.gmt` for a smoke test).  
    Exploratory notebook: `notebooks/kinase_comprehensive_analysis.ipynb`.
 9. **Multi-phos switches** (site-level): `python analyze/multiphos_switches.py`
+10. **PTM reference notebooks** (optional, uses `data/ptm.txt` and `data/ppic/edges.tsv`): see `notebooks/ptm_*.ipynb` — site catalog, enzyme–substrate paths, multi-PTM context, literature/source summary, PPIC subgraphs per condition.
 
 Install dependencies:
 
