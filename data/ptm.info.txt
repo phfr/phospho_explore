@@ -1,0 +1,11 @@
+1) ptm.txt -- PTM information
+	ptm_type 
+	source 
+	substrate_UniProtAC 
+	substrate_genename
+	organism
+	site 
+	enzyme_UniProtAC 
+	enzyme_genename
+	note 
+	pmid
